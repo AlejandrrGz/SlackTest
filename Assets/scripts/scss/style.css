@@ -3,17 +3,88 @@
   padding: 0;
   width: 100vw;
   box-sizing: border-box;
+  font-family: "Roboto";
 }
 
 @font-face {
-  font-family: SanSemi;
-  src: url(../fonts/EncodeSansSemiCondensed-Regular.ttf);
+  font-family: "Roboto";
+  src: url(./../../fonts/Roboto-Regular.ttf) format("truetype");
 }
 nav {
   width: 100%;
   height: 10%;
+  background-color: #541554;
+  color: #FFFFFF;
+}
+nav .logo-text {
+  width: 100%;
+  height: 10%;
+}
+nav .text {
+  margin-left: 20%;
+  font-size: 55px;
+}
+nav img.logo {
+  width: 15%;
+  height: 15%;
+  margin-top: 5%;
 }
 nav .menu {
-  display: inline-block;
+  display: none;
   list-style-type: none;
+}
+
+.sec01 {
+  background-color: #541554;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+}
+.sec01 h1 {
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+}
+.sec01 .subtittle {
+  color: #ECB22E;
+}
+.sec01 .register {
+  width: 95%;
+  height: 60px;
+  margin: 10px 0px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+.sec01 .google-reg {
+  width: 95%;
+  height: 60px;
+  margin: 10px 0px;
+  background-color: #4285F4;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+.sec01 .a-reg button {
+  text-decoration: none;
+  color: #541554;
+  font-size: 15px;
+  font-weight: 900;
+}
+.sec01 .g-reg button {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 900;
+}
+.sec01 img {
+  width: 50px;
+  height: 50px;
+  background-color: #FFFFFF;
+}
+.sec01 .register:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
+.sec01 .google-reg:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
 }/*# sourceMappingURL=style.css.map */
